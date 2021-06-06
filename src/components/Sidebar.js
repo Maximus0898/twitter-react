@@ -3,7 +3,7 @@ import './Sidebar.css';
 
 import TwitterIcon from '@material-ui/icons/Twitter';
 import HomeIcon from '@material-ui/icons/Home';
-import SearchIcon from '@material-ui/icons/Search';
+import ExploreIcon from '@material-ui/icons/Explore';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import BookmarkBorderIcon from '@material-ui/icons/BookmarkBorder';
@@ -18,7 +18,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <TwitterIcon className="sidebar__twitterIcon" />
       <SidebarOption active Icon={HomeIcon} text="Home" />
-      <SidebarOption Icon={SearchIcon} text="Explore" />
+      <SidebarOption Icon={ExploreIcon} text="Explore" />
       <SidebarOption Icon={NotificationsNoneIcon} text="Notifications" />
       <SidebarOption Icon={MailOutlineIcon} text="Messages" />
       <SidebarOption Icon={BookmarkBorderIcon} text="Bookmarks" />
